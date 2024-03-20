@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.backG {
+  background-color: rgb(19, 19, 19);
+  display: flex;
+  place-content: center;
+  height: 100vh;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+img {
+  width: 15rem;
+}
+.btnRoll {
+  width: 8rem;
+  height: 3rem;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  background-color: rgb(148, 247, 0);
+  margin: 2rem auto;
+}
+.btnRoll:hover {
+  width: 8rem;
+  height: 3rem;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  background-color: rgb(255, 255, 255);
+  margin: 2rem auto;
+  color: rgb(107, 179, 0);
+}
